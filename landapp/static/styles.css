@@ -1,0 +1,32 @@
+/* Custom Styles for Blue Theme */
+body {
+    background-color: #f0f8ff;
+}
+
+h1 {
+    color: #007bff;  /* Bootstrap Primary Blue */
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    border: 1px solid #007bff;
+}
+
+.btn-info {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #ffca2c;
+    border-color: #ffca2c;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}

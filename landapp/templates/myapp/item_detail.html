@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Details</title>
+</head>
+<body>
+    <h2>{{ item.name }}</h2>
+    <p>{{ item.description }}</p>
+    <p>Created at: {{ item.created_at|date:"F j, Y, g:i a" }}</p>
+    <a href="{% url 'update_item' item.pk %}">Edit</a> |
+    <a href="{% url 'delete_item' item.pk %}">Delete</a> |
+    <a href="{% url 'landing' %}">Back to Home</a>
+</body>
+</html>
